@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pokémon</title>
+</head>
+<body>
+    <main>
+        <h1>Lista de Pokémon</h1>
+        <p>Conheça os Pokémon da PokéAPI.</p>
+
+        <input type="text" id="campoBusca" placeholder="Digite o nome ou número (ex: pikachu, 25)">
+        <button onclick="buscarPokemon()">Procurar</button>
+        <button onclick="carregarPokemons()">Carregar Lista</button>
+
+        <p id="mensagem">Procure um Pokémon ou carregue a lista.</p>
+
+        <section id="listaPokemons"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
